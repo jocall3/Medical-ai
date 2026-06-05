@@ -1,0 +1,3 @@
+# Biometric Authentication Middleware Architecture
+
+This middleware provides a secure, multi-modal authentication layer for the Medical AI repository. It utilizes FIDO2/WebAuthn for passwordless identity, combined with deep-learning-based fusion of fingerprint, iris, facial, and voice data. All templates are encrypted at rest using hardware-backed keys, and every authentication attempt is validated against a multi-stage liveness detection engine to prevent spoofing.
