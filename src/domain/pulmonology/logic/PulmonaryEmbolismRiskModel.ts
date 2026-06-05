@@ -1,0 +1,1 @@
+export class PulmonaryEmbolismRiskModel { calculateWellsScore(signs: any): number { let score = 0; if (signs.dvtSymptoms) score += 3; if (signs.peMostLikely) score += 3; if (signs.hrOver100) score += 1.5; return score; } }
