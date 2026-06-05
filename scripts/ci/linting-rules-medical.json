@@ -1,0 +1,9 @@
+{
+  "rules": {
+    "no-hardcoded-secrets": "error",
+    "require-docstring-clinical-context": "error",
+    "enforce-type-hinting": "strict",
+    "max-complexity": 5,
+    "audit-log-required": true
+  }
+}
