@@ -1,0 +1,1 @@
+export interface Alveolus { id: string; surfaceTension: number; surfactantLevel: number; membraneThickness: number; volume: number; }
