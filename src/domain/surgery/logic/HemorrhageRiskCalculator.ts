@@ -1,0 +1,1 @@
+export class HemorrhageRiskCalculator { calculateRisk(instrumentPose: any, vesselMap: any[]): number { /* Proximity analysis to major blood vessels */ return 0; } }
