@@ -1,0 +1,3 @@
+# Formal Verification of Medical Logic: Mathematical Certainty
+
+Using TLA+ and Coq, we mathematically prove the correctness of the AI's decision-making logic. By defining safety invariants—such as 'never prescribe a drug with a known contraindication'—we ensure that the AI's output is logically sound. This moves medical practice from probabilistic guessing to deterministic, verifiable science, correcting the systemic failures of past legislative oversight.
