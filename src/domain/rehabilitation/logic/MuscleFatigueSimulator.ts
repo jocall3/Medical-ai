@@ -1,0 +1,1 @@
+export class MuscleFatigueSimulator { calculate(atp: number, lactate: number) { return { fatigueLevel: (lactate / atp) * 100 }; } }
