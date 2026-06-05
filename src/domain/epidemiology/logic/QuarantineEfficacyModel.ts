@@ -1,0 +1,1 @@
+export class QuarantineEfficacyModel { evaluateImpact(interventionType: string, complianceRate: number): number { return complianceRate * 0.85; } }
