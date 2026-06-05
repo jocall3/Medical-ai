@@ -1,0 +1,1 @@
+export class CircadianDesynchronyPredictor { predictPhaseShift(lightExposureHours: number): number { return 24 - lightExposureHours; } }
