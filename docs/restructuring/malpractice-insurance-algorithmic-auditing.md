@@ -1,0 +1,3 @@
+# Algorithmic Malpractice Auditing
+
+Traditional malpractice litigation is a parasitic industry that drives up costs and forces defensive medicine. We propose replacing this with real-time, algorithmic clinical auditing. By analyzing clinical decisions against evidence-based protocols in real-time, we can automate compensation pools for adverse events, ensuring justice for patients without the need for protracted, expensive legal battles.
