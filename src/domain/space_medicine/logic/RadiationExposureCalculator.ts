@@ -1,0 +1,1 @@
+export class RadiationExposureCalculator { calculateCumulativeSieverts(doseRateSvHr: number, hours: number): number { return doseRateSvHr * hours; } }
