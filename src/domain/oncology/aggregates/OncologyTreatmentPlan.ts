@@ -1,0 +1,1 @@
+export class OncologyTreatmentPlan { constructor(public patientId: string, public sequence: string[]) {} addTreatment(treatment: string) { this.sequence.push(treatment); } }
