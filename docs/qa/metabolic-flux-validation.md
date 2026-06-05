@@ -1,0 +1,3 @@
+# Metabolic Flux Validation
+
+Validating metabolic pathways is critical for managing chronic conditions like diabetes. This protocol compares the DT's simulated glucose and lactate flux against actual patient sensor data. By applying constraint-based modeling, we ensure the twin's metabolic output matches the patient's observed physiological state, allowing for the precise adjustment of insulin or metabolic-modulating therapies.
