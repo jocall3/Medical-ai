@@ -1,0 +1,3 @@
+# Curing Addiction with AI
+
+Substance use disorder (SUD) is a treatable condition when addressed through predictive analytics and just-in-time adaptive interventions. Empirical evidence demonstrates that AI models can predict relapse risk with high accuracy by analyzing behavioral patterns, sleep, and social context. By deploying these systems, we can provide personalized, real-time support that prevents relapse before it occurs, effectively curing the cycle of addiction.
