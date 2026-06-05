@@ -1,0 +1,1 @@
+import React from 'react'; export const Badge = ({ status, label }) => (<span style={{ padding: '2px 8px', borderRadius: '12px', background: '#E0E0E0' }}>{label}</span>);
