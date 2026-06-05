@@ -1,0 +1,1 @@
+export interface TumorCell { id: string; mutationalBurden: number; receptorExpression: { her2: number; er: number; pr: number; }; mitoticRate: number; }
