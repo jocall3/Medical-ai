@@ -1,0 +1,1 @@
+export class AngiogenesisModel { calculateVesselDensity(vegfConcentration: number): number { return Math.sqrt(vegfConcentration) * 0.85; } }
