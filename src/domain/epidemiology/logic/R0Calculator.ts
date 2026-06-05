@@ -1,0 +1,1 @@
+export class R0Calculator { calculateRt(newCases: number[], generationInterval: number[]): number { return newCases.reduce((a, b) => a + b, 0) / generationInterval.length; } }
