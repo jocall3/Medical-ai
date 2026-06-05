@@ -1,0 +1,1 @@
+import { Compound } from '../entities/Compound'; import { TargetProtein } from '../entities/TargetProtein'; export class MolecularDockingEngine { calculateBindingEnergy(compound: Compound, protein: TargetProtein): number { return -1 * (compound.logP * 0.5 + protein.bindingPocketCoordinates.length * 0.1); } }
