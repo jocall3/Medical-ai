@@ -1,0 +1,1 @@
+export class PhysicalTherapySession { constructor(public readonly sessionId: string, public exercises: any[], public exertion: number) {} }
