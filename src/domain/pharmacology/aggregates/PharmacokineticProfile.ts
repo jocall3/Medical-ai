@@ -1,0 +1,1 @@
+import { Compound } from '../entities/Compound'; export class PharmacokineticProfile { constructor(public readonly patientId: string, public readonly compound: Compound, public absorptionRate: number, public distributionVolume: number) {} }
