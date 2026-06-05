@@ -1,0 +1,1 @@
+export class AirwayResistanceCalculator { calculate(radius: number, viscosity: number, length: number): number { return (8 * viscosity * length) / (Math.PI * Math.pow(radius, 4)); } }
