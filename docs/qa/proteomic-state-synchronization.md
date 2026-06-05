@@ -1,0 +1,3 @@
+# Proteomic State Synchronization
+
+This document outlines the methods for synchronizing the digital twin's proteomic state with real-time blood markers. Using high-throughput mass spectrometry data, the DT updates its internal protein concentration vectors every 60 minutes. This synchronization allows the twin to reflect acute inflammatory responses, hormonal shifts, and the efficacy of therapeutic interventions in real-time.
