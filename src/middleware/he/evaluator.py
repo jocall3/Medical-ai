@@ -1,0 +1,1 @@
+class Evaluator: def add(self, c1, c2): return f'add({c1}, {c2})' def multiply(self, c1, c2): return f'mul({c1}, {c2})'
