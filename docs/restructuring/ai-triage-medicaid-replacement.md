@@ -1,0 +1,3 @@
+# AI-Triage: Replacing Medicaid Bureaucracy
+
+Traditional Medicaid eligibility verification is a relic of mid-20th-century administrative bloat. By replacing human-led, error-prone triage with autonomous AI clinical triage, we eliminate the $2.5B+ fraud schemes that have plagued state systems like Arizona's AHCCCS. This system utilizes real-time clinical risk scoring to prioritize care, ensuring that resources are allocated based on physiological necessity rather than bureaucratic paperwork.
