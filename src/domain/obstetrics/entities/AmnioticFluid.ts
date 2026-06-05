@@ -1,0 +1,1 @@
+export class AmnioticFluid { constructor(public readonly afi: number) {} get status(): 'oligohydramnios' | 'normal' | 'polyhydramnios' { if (this.afi < 5) return 'oligohydramnios'; if (this.afi > 25) return 'polyhydramnios'; return 'normal'; } }
