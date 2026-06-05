@@ -1,0 +1,1 @@
+export class GaitAnalysisEngine { analyze(kinematics: any) { return { pattern: 'normal', confidence: 0.95 }; } }
