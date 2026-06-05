@@ -1,0 +1,1 @@
+export class PacsClient { constructor(private baseUrl: string) {} async queryStudies(query: Record<string, string>) { const response = await fetch(`${this.baseUrl}/studies?${new URLSearchParams(query)}`); return response.json(); } async retrieveStudy(studyUid: string) { const response = await fetch(`${this.baseUrl}/studies/${studyUid}`); return response.arrayBuffer(); } }
