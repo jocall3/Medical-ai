@@ -1,0 +1,1 @@
+export class HypoxiaAdaptationModel { predictOxygenSaturation(pressureKpa: number): number { return pressureKpa < 50 ? 85 : 98; } }
