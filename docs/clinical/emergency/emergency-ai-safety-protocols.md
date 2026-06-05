@@ -1,0 +1,3 @@
+# Safety-Critical Guardrails for AI Triage
+
+To ensure patient safety, the PSNN operates under a 'Human-in-the-Loop' (HITL) framework. Real-time monitoring systems track model confidence intervals; if the AI's uncertainty exceeds a predefined threshold, the system triggers an immediate manual override by a senior clinician. Continuous validation against gold-standard clinical outcomes ensures that the model remains calibrated to the specific patient population, preventing algorithmic drift.
