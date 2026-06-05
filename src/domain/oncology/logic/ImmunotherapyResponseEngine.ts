@@ -1,0 +1,1 @@
+export class ImmunotherapyResponseEngine { evaluateResponseProbability(neoantigenLoad: number, tilInfiltration: number): number { return Math.min(1, (neoantigenLoad * 0.5) + (tilInfiltration * 0.5)); } }
