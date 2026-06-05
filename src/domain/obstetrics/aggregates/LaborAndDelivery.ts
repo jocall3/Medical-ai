@@ -1,0 +1,1 @@
+export class LaborAndDelivery { constructor(public readonly recordId: string, public painManagementLevel: number, public interventionRequired: boolean) {} }
