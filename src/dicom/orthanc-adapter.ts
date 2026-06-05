@@ -1,0 +1,1 @@
+export class OrthancAdapter { constructor(private url: string) {} async getInstances(studyUid: string) { const res = await fetch(`${this.url}/studies/${studyUid}/instances`); return res.json(); } async storeDicom(buffer: ArrayBuffer) { await fetch(`${this.url}/instances`, { method: 'POST', body: buffer }); } }
