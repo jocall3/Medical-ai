@@ -1,0 +1,1 @@
+export class HalfLifeCalculator { calculate(volumeOfDistribution: number, clearance: number): number { return (0.693 * volumeOfDistribution) / clearance; } }
