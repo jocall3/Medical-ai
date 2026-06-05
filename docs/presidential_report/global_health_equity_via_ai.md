@@ -1,0 +1,3 @@
+# Global Health Equity via AI
+
+AI-driven multilingual translation and diagnostic tools are the key to democratizing access to high-quality healthcare. By deploying low-cost, AI-powered diagnostic platforms, we can bridge the gap in medical access for underserved populations globally. This dissertation outlines a strategy for leveraging AI to ensure that the benefits of medical advancement are accessible to all, regardless of geography or socioeconomic status.
