@@ -1,0 +1,1 @@
+export interface Pose6DOF { x: number; y: number; z: number; roll: number; pitch: number; yaw: number; } export class SurgicalInstrument { constructor(public id: string, public type: 'scalpel' | 'cautery' | 'forceps', public pose: Pose6DOF, public wearLevel: number) {} updatePose(newPose: Pose6DOF): void { this.pose = newPose; this.wearLevel += 0.0001; } }
