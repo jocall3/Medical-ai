@@ -1,0 +1,1 @@
+export class PatientTumorBoard { constructor(public patientId: string, public pathologyData: any, public genomicData: any) {} review() { return { status: 'reviewed', timestamp: new Date() }; } }
