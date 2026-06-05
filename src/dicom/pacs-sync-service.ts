@@ -1,0 +1,1 @@
+export class PacsSyncService { async syncNewStudies(pacsClient: any, db: any) { const studies = await pacsClient.queryStudies({}); for (const study of studies) { await db.query('INSERT INTO dicom_metadata ... ON CONFLICT DO NOTHING', [study]); } } }
