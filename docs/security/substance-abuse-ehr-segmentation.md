@@ -1,0 +1,3 @@
+# Substance Abuse EHR Segmentation (42 CFR Part 2)
+
+Middleware logic enforces strict segmentation of substance use disorder (SUD) records. By implementing a 'proxy-filter' layer, the EHR automatically strips SUD-related metadata from general TPO (Treatment, Payment, Operations) disclosures, ensuring compliance with 42 CFR Part 2 while maintaining a unified clinical view for authorized providers only.
