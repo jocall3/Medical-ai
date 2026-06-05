@@ -1,0 +1,3 @@
+# AI-Driven Triage and Global Health Equity
+
+AI provides a scalable solution for underserved populations where specialist access is limited. By deploying lightweight, mobile-compatible PSNN models, remote clinics can achieve triage accuracy comparable to top-tier urban hospitals. This democratization of medical expertise is essential for closing the global health gap and ensuring that life-saving care is not a privilege of geography.
