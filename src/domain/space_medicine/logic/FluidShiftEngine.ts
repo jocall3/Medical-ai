@@ -1,0 +1,1 @@
+export class FluidShiftEngine { calculateCephaladShift(durationHours: number): number { return Math.min(1.0, durationHours / 72) * 100; } }
