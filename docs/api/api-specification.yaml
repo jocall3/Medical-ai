@@ -1,0 +1,391 @@
+openapi: 3.0.3
+info:
+  title: Medical-AI API Ecosystem
+  description: Comprehensive API suite for automated triage, genomic sequencing, robotic surgery assistance, radiology diagnostics, psychiatric biomarker analysis, personalized pharmacology, predictive patient monitoring, and administrative workflow automation.
+  version: 1.0.0
+servers:
+  - url: https://api.medical-ai.internal/v1
+    description: Production Gateway
+paths:
+  /triage/score:
+    post:
+      summary: Calculate clinical triage score
+      description: Computes Emergency Severity Index (ESI) and custom ML-based triage scores based on patient vitals and symptoms.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TriageRequest'
+      responses:
+        '200':
+          description: Successful triage assessment
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TriageResponse'
+  /genomic/analyze-variants:
+    post:
+      summary: Analyze genomic variants
+      description: Annotates genomic variants for pathogenicity, associated phenotypes, and drug-gene interactions.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/GenomicRequest'
+      responses:
+        '200':
+          description: Genomic analysis results
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GenomicResponse'
+  /robotic-surgery/boundary-detection:
+    post:
+      summary: Detect tissue boundaries
+      description: Identifies critical anatomical structures and safety margins from surgical video frames.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/BoundaryRequest'
+      responses:
+        '200':
+          description: Boundary detection results
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BoundaryResponse'
+  /robotic-surgery-v2/vision-guided-assistance:
+    post:
+      summary: Advanced vision-guided surgical assistance
+      description: Provides real-time trajectory correction, depth mapping, and haptic feedback recommendations.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SurgeryV2Request'
+      responses:
+        '200':
+          description: Advanced surgical guidance vectors
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SurgeryV2Response'
+  /radiology/analyze:
+    post:
+      summary: Analyze radiology images
+      description: Detects anomalies in DICOM/radiology images and generates structured clinical reports.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RadiologyRequest'
+      responses:
+        '200':
+          description: Radiology analysis and structured report
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RadiologyResponse'
+  /psychiatric-biomarker/analyze:
+    post:
+      summary: Analyze psychiatric biomarkers
+      description: Evaluates acoustic and linguistic features to screen for psychiatric conditions.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PsychiatricRequest'
+      responses:
+        '200':
+          description: Psychiatric biomarker assessment
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PsychiatricResponse'
+  /pharmacology/pkpd-simulation:
+    post:
+      summary: Simulate PK/PD profiles
+      description: Simulates drug concentration over time and therapeutic effect using a mathematical compartment model.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PKPDRequest'
+      responses:
+        '200':
+          description: PK/PD simulation curves
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PKPDResponse'
+  /patient-monitoring/predict-deterioration:
+    post:
+      summary: Predict patient deterioration
+      description: Analyzes real-time telemetry streams to predict clinical deterioration and sepsis risk.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/MonitoringRequest'
+      responses:
+        '200':
+          description: Deterioration risk assessment
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MonitoringResponse'
+  /admin-workflow/extract:
+    post:
+      summary: Extract clinical data
+      description: Extracts structured clinical entities from unstructured clinical notes or OCR'd documents.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ExtractionRequest'
+      responses:
+        '200':
+          description: Extracted clinical entities
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ExtractionResponse'
+components:
+  schemas:
+    TriageRequest:
+      type: object
+      required:
+        - vitals
+        - symptoms
+        - age
+      properties:
+        vitals:
+          type: object
+          properties:
+            heart_rate: {type: integer}
+            systolic_bp: {type: integer}
+            diastolic_bp: {type: integer}
+            temperature: {type: number}
+            spo2: {type: integer}
+            respiratory_rate: {type: integer}
+        symptoms:
+          type: array
+          items: {type: string}
+        age:
+          type: integer
+    TriageResponse:
+      type: object
+      properties:
+        esi_score:
+          type: integer
+        icu_admission_probability:
+          type: number
+        recommended_disposition:
+          type: string
+        clinical_reasoning:
+          type: string
+    GenomicRequest:
+      type: object
+      required:
+        - variants
+      properties:
+        variants:
+          type: array
+          items:
+            type: object
+            properties:
+              chromosome: {type: string}
+              position: {type: integer}
+              reference: {type: string}
+              alternate: {type: string}
+    GenomicResponse:
+      type: object
+      properties:
+        annotated_variants:
+          type: array
+          items:
+            type: object
+            properties:
+              variant: {type: string}
+              pathogenicity: {type: string}
+              associated_phenotypes: {type: array, items: {type: string}}
+              pharmacogenomic_implications: {type: string}
+    BoundaryRequest:
+      type: object
+      required:
+        - frame_data
+      properties:
+        frame_data:
+          type: string
+          description: Base64 encoded image frame
+    BoundaryResponse:
+      type: object
+      properties:
+        critical_structures:
+          type: array
+          items:
+            type: object
+            properties:
+              name: {type: string}
+              confidence: {type: number}
+              coordinates:
+                type: array
+                items: {type: integer}
+        safety_margin_mm:
+          type: number
+        collision_warning:
+          type: boolean
+    SurgeryV2Request:
+      type: object
+      required:
+        - stereo_frame_left
+        - stereo_frame_right
+        - current_coordinates
+      properties:
+        stereo_frame_left: {type: string}
+        stereo_frame_right: {type: string}
+        current_coordinates:
+          type: array
+          items: {type: number}
+    SurgeryV2Response:
+      type: object
+      properties:
+        trajectory_correction_vector:
+          type: array
+          items: {type: number}
+        depth_map_summary:
+          type: string
+        haptic_feedback_intensity:
+          type: number
+        collision_imminent:
+          type: boolean
+    RadiologyRequest:
+      type: object
+      required:
+        - image_metadata
+        - raw_bytes_base64
+      properties:
+        image_metadata:
+          type: object
+        raw_bytes_base64:
+          type: string
+    RadiologyResponse:
+      type: object
+      properties:
+        anomalies:
+          type: array
+          items:
+            type: object
+            properties:
+              label: {type: string}
+              confidence: {type: number}
+              bounding_box: {type: array, items: {type: number}}
+        structured_report:
+          type: string
+    PsychiatricRequest:
+      type: object
+      required:
+        - audio_features
+        - transcript
+      properties:
+        audio_features:
+          type: object
+          properties:
+            pitch_mean: {type: number}
+            jitter: {type: number}
+            shimmer: {type: number}
+            speech_rate: {type: number}
+        transcript:
+          type: string
+    PsychiatricResponse:
+      type: object
+      properties:
+        depression_risk_score:
+          type: number
+        anxiety_risk_score:
+          type: number
+        cognitive_decline_risk_score:
+          type: number
+        linguistic_coherence_score:
+          type: number
+    PKPDRequest:
+      type: object
+      required:
+        - drug_name
+        - dose_mg
+        - patient_weight_kg
+        - egfr
+      properties:
+        drug_name: {type: string}
+        dose_mg: {type: number}
+        patient_weight_kg: {type: number}
+        egfr: {type: number}
+    PKPDResponse:
+      type: object
+      properties:
+        time_points:
+          type: array
+          items: {type: number}
+        concentrations:
+          type: array
+          items: {type: number}
+        therapeutic_effect:
+          type: array
+          items: {type: number}
+        half_life_hours:
+          type: number
+    MonitoringRequest:
+      type: object
+      required:
+        - telemetry_stream
+      properties:
+        telemetry_stream:
+          type: array
+          items:
+            type: object
+            properties:
+              timestamp: {type: string}
+              heart_rate: {type: number}
+              spo2: {type: number}
+              systolic_bp: {type: number}
+              respiratory_rate: {type: number}
+    MonitoringResponse:
+      type: object
+      properties:
+        deterioration_probability:
+          type: number
+        news2_score:
+          type: integer
+        sepsis_risk:
+          type: string
+        recommended_action:
+          type: string
+    ExtractionRequest:
+      type: object
+      required:
+        - clinical_note
+      properties:
+        clinical_note:
+          type: string
+    ExtractionResponse:
+      type: object
+      properties:
+        extracted_entities:
+          type: array
+          items:
+            type: object
+            properties:
+              text: {type: string}
+              category: {type: string}
+              confidence: {type: number}
+              standardized_code: {type: string}
