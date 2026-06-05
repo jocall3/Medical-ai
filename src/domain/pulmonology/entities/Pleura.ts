@@ -1,0 +1,1 @@
+export interface Pleura { id: string; pleuralFluidVolume: number; intrapleuralPressure: number; membraneIntegrity: number; }
