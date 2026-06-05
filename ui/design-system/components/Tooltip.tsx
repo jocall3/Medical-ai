@@ -1,0 +1,1 @@
+import React from 'react'; export const Tooltip = ({ text, children }) => (<div className='tooltip-container' title={text}>{children}</div>);
