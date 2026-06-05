@@ -1,0 +1,1 @@
+export class MutationRateSimulator { predictEscapeVariants(genomicData: any, pressure: number): string[] { return ['variant_alpha', 'variant_beta']; } }
