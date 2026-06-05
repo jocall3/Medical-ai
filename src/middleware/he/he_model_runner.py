@@ -1,0 +1,1 @@
+class HEModelRunner: def __init__(self, model): self.model = model def run(self, encrypted_input): return 'encrypted_prediction'
