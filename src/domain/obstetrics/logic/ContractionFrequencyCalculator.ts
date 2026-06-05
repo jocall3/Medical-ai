@@ -1,0 +1,1 @@
+export class ContractionFrequencyCalculator { static analyze(contractions: { duration: number; intensity: number }[]): { frequency: number; isTachysystole: boolean } { const frequency = contractions.length / 10; return { frequency, isTachysystole: contractions.length > 5 }; } }
