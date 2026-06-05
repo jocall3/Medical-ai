@@ -1,0 +1,3 @@
+# Decentralized Health Savings Accounts (DHSAs)
+
+By leveraging smart contracts on immutable ledgers, we remove the insurance middle-man. DHSAs allow for automated, transparent, and instantaneous settlement of medical expenses. This eliminates the administrative overhead of traditional insurance, ensuring that patient funds are directed solely toward clinical outcomes, with automated compliance checks built into the protocol.
