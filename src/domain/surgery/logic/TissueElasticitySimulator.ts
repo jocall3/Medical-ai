@@ -1,0 +1,1 @@
+export class TissueElasticitySimulator { simulate(mesh: any, force: number[]): void { /* Hyperelastic material model (Neo-Hookean) for soft tissue */ } }
