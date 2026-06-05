@@ -1,0 +1,3 @@
+# PSNN: Priority-Scoring Neural Network Deep Dive
+
+The PSNN architecture utilizes a multi-layered Bidirectional Long Short-Term Memory (Bi-LSTM) network to process high-dimensional clinical time-series data. By embedding patient vitals, chief complaints, and historical EHR data into a latent space, the model identifies non-linear correlations indicative of clinical deterioration. The triage logic employs a softmax output layer to categorize patients into five acuity levels, ensuring that resource allocation is optimized based on real-time physiological trajectory rather than static, subjective assessment.
