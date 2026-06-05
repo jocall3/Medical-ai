@@ -1,0 +1,1 @@
+export class OutbreakCluster { private patients: string[] = []; constructor(public readonly clusterId: string, public readonly patientZero: string) {} addContact(patientId: string): void { this.patients.push(patientId); } }
