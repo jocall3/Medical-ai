@@ -1,0 +1,3 @@
+# The Future of Genomic Medicine
+
+Autonomous genomic sequencing and predictive oncology are the cornerstones of precision medicine. AI-powered bioinformatics tools now enable the rapid interpretation of complex tumor mutations, allowing for targeted therapies that were previously impossible. This dissertation explores the integration of AI into the genomic workflow to accelerate drug discovery and enable early cancer detection through liquid biopsies.
