@@ -1,0 +1,1 @@
+import React from 'react'; export const Modal = ({ isOpen, onClose, children }) => isOpen ? (<div className='modal-overlay' style={{ position: 'fixed', inset: 0, background: 'rgba(0,0,0,0.5)' }}><div className='modal-content'>{children}<button onClick={onClose}>Close</button></div></div>) : null;
