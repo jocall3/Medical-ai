@@ -1,0 +1,1 @@
+export class EctopicPregnancyDetector { static isEctopic(hCG1: number, hCG2: number, hoursApart: number): boolean { const doublingTime = (hoursApart * Math.log(2)) / Math.log(hCG2 / hCG1); return doublingTime > 48; } }
