@@ -1,0 +1,1 @@
+export class HerdImmunityPredictor { calculateThreshold(r0: number): number { return 1 - (1 / r0); } }
