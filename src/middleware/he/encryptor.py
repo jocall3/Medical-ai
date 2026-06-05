@@ -1,0 +1,1 @@
+class Encryptor: def __init__(self, public_key): self.pk = public_key def encrypt(self, plaintext): return f'encrypted_{plaintext}'
