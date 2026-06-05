@@ -1,0 +1,1 @@
+export class Uterus { constructor(public readonly id: string, public fundalHeightCm: number, public myometrialTone: 'normal' | 'hypertonic' | 'hypotonic', public cervicalLengthMm: number) {} }
