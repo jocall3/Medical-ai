@@ -1,0 +1,1 @@
+class KeyGenerator: def __init__(self, scheme_type='CKKS'): self.scheme_type = scheme_type; self.keys = {} def generate_keys(self): return {'public_key': 'pk_data', 'secret_key': 'sk_data', 'relin_key': 'rk_data'}
