@@ -1,0 +1,1 @@
+export class MicrogravityEnvironment { constructor(public readonly gravityLevel: number, public readonly radiationLevel: number, public readonly atmosphericPressure: number) {} }
