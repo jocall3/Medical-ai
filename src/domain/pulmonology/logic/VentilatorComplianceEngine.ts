@@ -1,0 +1,1 @@
+export class VentilatorComplianceEngine { calculateCompliance(deltaVolume: number, deltaPressure: number): number { return deltaVolume / deltaPressure; } }
