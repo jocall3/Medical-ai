@@ -1,0 +1,2 @@
+CREATE TABLE audio_sessions (id UUID PRIMARY KEY, clinician_id UUID, patient_id UUID, created_at TIMESTAMP);
+CREATE TABLE transcripts (id UUID PRIMARY KEY, session_id UUID, content TEXT, speaker_map JSONB);
