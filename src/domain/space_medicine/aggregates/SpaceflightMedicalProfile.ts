@@ -1,0 +1,1 @@
+import { Astronaut } from '../entities/Astronaut'; export class SpaceflightMedicalProfile { constructor(public astronaut: Astronaut, public telemetry: any[], public rehabPlan: string[]) {} addTelemetry(data: any): void { this.telemetry.push(data); } }
