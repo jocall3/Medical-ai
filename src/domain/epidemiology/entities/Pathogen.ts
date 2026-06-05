@@ -1,0 +1,1 @@
+export class Pathogen { constructor(public readonly id: string, public readonly r0: number, public readonly incubationPeriodDays: number, public readonly virulenceFactor: number) {} }
