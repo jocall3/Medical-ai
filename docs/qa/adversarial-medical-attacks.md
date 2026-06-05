@@ -1,0 +1,3 @@
+# Medical Adversarial Attacks: The Threat to Clinical Integrity
+
+This dissertation examines the vulnerability of deep learning diagnostic models to adversarial perturbations. Malicious actors can introduce imperceptible noise into medical imaging or electronic health records (EHR) to force misclassification, potentially leading to lethal diagnostic errors. Historically, the fragmentation of healthcare policy has left these systems exposed; we must move beyond legacy regulatory frameworks to implement cryptographic validation of all clinical inputs.
