@@ -1,0 +1,1 @@
+export interface MetastasisNode { id: string; primaryTumorId: string; site: string; spreadType: 'lymphatic' | 'hematogenous'; colonizationStatus: 'dormant' | 'active'; }
