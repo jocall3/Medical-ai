@@ -1,0 +1,3 @@
+# Digital Twin Drift Detection
+
+Drift occurs when the digital twin's state diverges from the biological patient due to unmodeled environmental factors or rapid physiological changes. Our system employs a drift detection algorithm that monitors the divergence between predicted and observed telemetry. Upon detection, the system triggers a re-synchronization event, pulling the latest clinical data to reset the DT's state and maintain its predictive accuracy.
