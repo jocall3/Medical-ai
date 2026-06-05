@@ -1,0 +1,6 @@
+class DeteriorationScenario:
+    def __init__(self, name, severity_curve):
+        self.name = name
+        self.severity_curve = severity_curve
+    def execute(self, patient):
+        return f'Simulating {self.name} for patient {patient}'
