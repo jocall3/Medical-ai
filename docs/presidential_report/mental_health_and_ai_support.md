@@ -1,0 +1,3 @@
+# Mental Health and AI Support Systems
+
+AI-driven mental health support offers a scalable solution to the current crisis in behavioral health. While general-purpose chatbots present safety risks, specialized, clinically-validated AI agents provide consistent, evidence-based support for youth and adults. This report details the necessity of rigorous safety guardrails and human-in-the-loop oversight to ensure these tools serve as effective adjuncts to traditional therapy.
