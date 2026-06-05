@@ -1,0 +1,1 @@
+import { Compound } from '../entities/Compound'; export class ToxicityPredictor { predictToxicity(compound: Compound): { hepatotoxicity: number; cardiotoxicity: number; mutagenicity: boolean } { return { hepatotoxicity: compound.logP > 5 ? 0.8 : 0.2, cardiotoxicity: 0.1, mutagenicity: false }; } }
