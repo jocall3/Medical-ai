@@ -1,0 +1,1 @@
+export class Compound { constructor(public readonly id: string, public readonly smiles: string, public readonly molecularWeight: number, public readonly logP: number) {} }
