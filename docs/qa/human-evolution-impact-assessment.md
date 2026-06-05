@@ -1,0 +1,3 @@
+# Human Evolution Impact Assessment
+
+This long-term assessment explores the trajectory of human evolution under the guidance of AI-driven medical perfection. By removing the selective pressures of disease and premature death, we are entering an era of 'Directed Evolution.' This document outlines the ethical and biological implications of this transition, ensuring that our pursuit of a cure for everything aligns with the preservation and enhancement of the human spirit.
