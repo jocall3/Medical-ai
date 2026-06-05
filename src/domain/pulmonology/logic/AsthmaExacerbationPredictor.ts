@@ -1,0 +1,1 @@
+export class AsthmaExacerbationPredictor { predict(pollenCount: number, aqi: number, adherence: number): number { return (pollenCount * 0.4) + (aqi * 0.3) - (adherence * 0.5); } }
