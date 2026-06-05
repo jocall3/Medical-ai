@@ -1,0 +1,3 @@
+# Regulatory Agility and Innovation
+
+To maintain our competitive edge, the regulatory landscape must evolve to support rapid innovation without compromising patient safety. We propose a flexible, tiered regulatory pathway that allows for the iterative deployment of AI medical devices. This approach encourages the development of cutting-edge technologies while ensuring that clinical evidence remains the primary driver of approval.
