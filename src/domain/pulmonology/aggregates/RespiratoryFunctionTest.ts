@@ -1,0 +1,1 @@
+export class RespiratoryFunctionTest { constructor(public fev1: number, public fvc: number, public dlco: number) {} get ratio(): number { return this.fev1 / this.fvc; } }
