@@ -1,0 +1,1 @@
+import React from 'react'; export const Input = ({ label, error, ...props }) => (<div><label>{label}</label><input style={{ display: 'block', width: '100%', padding: '8px' }} {...props} />{error && <span style={{ color: '#D32F2F' }}>{error}</span>}</div>);
