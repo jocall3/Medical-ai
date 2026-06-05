@@ -1,0 +1,1 @@
+export class DicomThumbnailGenerator { async generate(pixelData: Uint8Array): Promise<Blob> { /* Logic to convert pixel data to JPEG/PNG */ return new Blob([]); } }
