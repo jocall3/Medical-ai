@@ -1,0 +1,1 @@
+export class DicomUploadHandler { async handleUpload(file: File) { const buffer = new Uint8Array(await file.arrayBuffer()); const metadata = DicomParser.parseMetadata(buffer); await this.saveToStorage(buffer, metadata); return { success: true, metadata }; } private async saveToStorage(buffer: Uint8Array, metadata: any) { /* Implementation for cloud storage */ } }
