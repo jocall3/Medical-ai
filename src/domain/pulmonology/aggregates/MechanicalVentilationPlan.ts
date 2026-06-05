@@ -1,0 +1,1 @@
+export class MechanicalVentilationPlan { constructor(public mode: string, public peep: number, public fio2: number, public tidalVolume: number) {} }
