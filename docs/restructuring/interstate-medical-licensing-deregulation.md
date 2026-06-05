@@ -1,0 +1,3 @@
+# Interstate Medical Licensing Deregulation
+
+State-level licensing barriers are a primary driver of the physician shortage and inequitable access to care. AI-facilitated cross-border telemedicine, governed by a national digital credentialing standard, allows patients to access the world's best specialists regardless of geography. This democratizes top-tier medical expertise and eliminates the artificial scarcity created by state-line protectionism.
