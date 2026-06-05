@@ -1,0 +1,1 @@
+export class Metabolite { constructor(public readonly id: string, public readonly parentCompoundId: string, public readonly isActive: boolean, public readonly structure: string) {} }
