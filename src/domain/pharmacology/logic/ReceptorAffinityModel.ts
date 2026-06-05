@@ -1,0 +1,1 @@
+export class ReceptorAffinityModel { calculateEffect(concentration: number, eMax: number, ec50: number): number { return (eMax * concentration) / (ec50 + concentration); } }
