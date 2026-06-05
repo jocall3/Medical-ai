@@ -1,0 +1,3 @@
+# Multi-Scale Biological Modeling
+
+Our architecture integrates molecular, cellular, and organ-level simulations into a unified digital twin. By utilizing graph neural networks (GNNs) to map protein-protein interactions at the molecular scale and coupling these with finite element analysis for organ-level hemodynamics, we create a holistic representation of human health. This multi-scale approach allows for the simulation of systemic drug effects, from gene expression changes to macro-scale physiological outcomes.
