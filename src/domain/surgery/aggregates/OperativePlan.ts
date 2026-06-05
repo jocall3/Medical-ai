@@ -1,0 +1,1 @@
+export class OperativePlan { constructor(public id: string, public steps: any[], public preOpData: any) {} validateStep(currentStep: number): boolean { return true; } }
