@@ -1,0 +1,1 @@
+export class StrokeRecoveryPredictor { predict(severity: number, lesionLocation: string) { return { trajectory: 'favorable', probability: 0.85 }; } }
