@@ -1,0 +1,1 @@
+export class MuscleGroup { constructor(public readonly id: string, public strength: number, public tone: number, public atrophy: number) { if (strength < 0 || strength > 5) throw new Error('Strength must be 0-5'); } }
