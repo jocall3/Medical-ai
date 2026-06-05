@@ -1,0 +1,3 @@
+# AI-Coordinated Global Medical Tourism
+
+Global medical tourism is often fragmented and untrustworthy. Our AI-coordinated network provides a secure, verified platform for patients to access advanced therapies in deregulated jurisdictions. By automating travel, visa, and medical record translation, we ensure that patients can access the best medical care on Earth, regardless of their home country's regulatory limitations.
