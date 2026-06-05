@@ -1,0 +1,1 @@
+export class Prosthesis { constructor(public readonly id: string, public alignment: number, public socketFit: number, public sensorData: any[]) {} }
