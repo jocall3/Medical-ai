@@ -1,0 +1,3 @@
+# CDS Hooks Architecture Dissertation
+
+This module implements the CDS Hooks specification to provide real-time, evidence-based clinical decision support. By utilizing a state-machine-driven approach, we track clinician interactions (render, click, override) to refine our AI models continuously. Our architecture ensures minimal latency through optimized prefetch templates, enabling the delivery of actionable insights directly into the EHR workflow.
