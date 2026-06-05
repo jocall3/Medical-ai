@@ -1,0 +1,1 @@
+export class Incision { constructor(public id: string, public path: number[][], public depth: number, public healingState: number) {} updateHealing(progress: number): void { this.healingState = Math.min(1, this.healingState + progress); } }
