@@ -1,0 +1,1 @@
+export class ChemoResistancePredictor { predictResistanceProbability(effluxPumpExpression: number, dnaRepairCapacity: number): number { return (effluxPumpExpression * 0.6) + (dnaRepairCapacity * 0.4); } }
