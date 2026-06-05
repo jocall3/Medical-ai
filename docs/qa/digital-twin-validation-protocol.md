@@ -1,0 +1,3 @@
+# Digital Twin Validation Protocol
+
+This protocol defines the rigorous standards for validating a patient's digital twin (DT) against real-time physiological telemetry. Validation is achieved through a continuous feedback loop where sensor data (ECG, SpO2, glucose) is compared against the DT's predicted state. Discrepancies exceeding a 0.05% threshold trigger an automated recalibration of the underlying neural network weights to ensure the twin remains a precise, predictive mirror of the patient's current biological status.
