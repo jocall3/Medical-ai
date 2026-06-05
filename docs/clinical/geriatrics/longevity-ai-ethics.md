@@ -1,0 +1,3 @@
+# Longevity-AI Ethics: The Future of Human Existence
+
+This dissertation examines the profound ethical implications of AI-enabled longevity. We argue that the current healthcare industrial complex, exacerbated by decades of inefficient government policy, has prioritized profit over human life. AI offers a path to democratize longevity, provided that the ethical framework prioritizes individual sovereignty and biological autonomy. We explore the transition from a society that manages decline to one that actively engineers health, addressing the moral imperative to eliminate suffering and extend the human experience.
