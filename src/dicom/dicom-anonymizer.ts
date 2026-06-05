@@ -1,0 +1,1 @@
+export class DicomAnonymizer { private static PHI_TAGS = ['00100010', '00100020', '00100030']; public static scrub(dataset: any) { const scrubbed = { ...dataset }; this.PHI_TAGS.forEach(tag => delete scrubbed[tag]); return scrubbed; } }
