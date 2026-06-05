@@ -1,0 +1,3 @@
+# Adversarial Training for Medicine: Building Immune Systems for AI
+
+Adversarial training involves incorporating adversarial examples directly into the training loop. By forcing the model to learn the underlying physiological features rather than superficial patterns, we make the AI immune to input perturbations. This is the digital equivalent of vaccination, hardening the system against both accidental noise and intentional sabotage.
