@@ -1,0 +1,1 @@
+export class PrescriptionRegimen { constructor(public readonly patientId: string, public readonly compoundId: string, public dosage: number, public frequencyHours: number, public adherenceScore: number) {} }
