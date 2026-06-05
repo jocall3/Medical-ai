@@ -1,0 +1,1 @@
+export class BoneLossSimulator { simulate(months: number, mechanicalLoad: number): number { const baseLossRate = 0.015; return months * baseLossRate * (1 - mechanicalLoad); } }
