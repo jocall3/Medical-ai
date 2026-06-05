@@ -1,0 +1,1 @@
+export class MotorNeuron { constructor(public readonly id: string, public denervationState: number, public reinnervationProgress: number) {} }
