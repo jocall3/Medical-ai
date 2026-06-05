@@ -1,0 +1,1 @@
+class BFV: def __init__(self, plain_modulus=65537): self.modulus = plain_modulus def setup(self): pass
