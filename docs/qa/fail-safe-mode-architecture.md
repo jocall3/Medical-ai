@@ -1,0 +1,3 @@
+# Fail-Safe Mode Architecture: Continuity of Care
+
+In the event of a system compromise, the AI enters 'Safe-Mode.' This restricted, high-reliability kernel provides only basic, rule-based diagnostic support, stripping away complex neural layers that could be prone to instability. This ensures that even during a catastrophic failure, the patient receives baseline medical guidance rather than total system abandonment.
