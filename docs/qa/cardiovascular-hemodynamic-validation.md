@@ -1,0 +1,3 @@
+# Cardiovascular Hemodynamic Validation
+
+This protocol validates blood flow simulations against real-time Doppler ultrasound data. By integrating 3D computational fluid dynamics (CFD) with patient-specific vascular geometry, the DT provides an accurate model of cardiac output and arterial pressure. This validation ensures that the twin can reliably predict the impact of cardiovascular interventions and detect early signs of heart failure.
