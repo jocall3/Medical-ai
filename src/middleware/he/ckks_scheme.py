@@ -1,0 +1,1 @@
+class CKKS: def __init__(self, poly_modulus_degree=8192): self.degree = poly_modulus_degree def setup(self): pass
