@@ -1,0 +1,3 @@
+# Medicaid and Policy Impact: A Critical Review
+
+Recent legislative actions, specifically the 2025 Budget Reconciliation Bill (H.R. 1), have introduced significant disruptions to the Medicaid ecosystem. By imposing restrictive eligibility requirements and reducing federal matching rates, these policies have exacerbated healthcare disparities and hindered innovation in safety-net facilities. This report argues for a reversal of these restrictive measures, advocating for a policy framework that incentivizes AI-driven efficiency and research-led growth.
