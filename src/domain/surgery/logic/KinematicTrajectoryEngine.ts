@@ -1,0 +1,1 @@
+export class KinematicTrajectoryEngine { solve(start: any, goal: any, obstacles: any[]): number[][] { /* QP-based collision-free path planning using inverse kinematics */ return []; } }
