@@ -1,0 +1,1 @@
+class Decryptor: def __init__(self, secret_key): self.sk = secret_key def decrypt(self, ciphertext): return ciphertext.replace('encrypted_', '')
