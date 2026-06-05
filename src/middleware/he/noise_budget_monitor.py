@@ -1,0 +1,1 @@
+class NoiseBudgetMonitor: def __init__(self, threshold=100): self.threshold = threshold def check(self, ciphertext): return True
