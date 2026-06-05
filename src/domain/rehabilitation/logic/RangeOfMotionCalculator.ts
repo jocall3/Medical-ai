@@ -1,0 +1,1 @@
+export class RangeOfMotionCalculator { calculate(goniometry: number[]) { return goniometry.reduce((a, b) => a + b, 0) / goniometry.length; } }
