@@ -1,0 +1,3 @@
+# Triage AI Automation Roadmap
+
+Phase 1: Data integration and baseline model training on historical EHR datasets. Phase 2: Shadow-mode deployment where the AI provides decision support without influencing patient flow. Phase 3: Full integration with clinical workflows, including automated alerts and resource scheduling. Phase 4: Global scaling and standardization of triage protocols to ensure universal health equity.
