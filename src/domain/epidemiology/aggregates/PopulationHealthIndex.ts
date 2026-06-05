@@ -1,0 +1,1 @@
+export class PopulationHealthIndex { constructor(public readonly prevalence: number, public readonly icuCapacity: number, public readonly socioEconomicFactor: number) {} calculateIndex(): number { return (this.prevalence * 0.4) + (this.icuCapacity * 0.3) + (this.socioEconomicFactor * 0.3); } }
