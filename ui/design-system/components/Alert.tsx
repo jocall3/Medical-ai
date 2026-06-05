@@ -1,0 +1,1 @@
+import React from 'react'; export const Alert = ({ type, message }) => (<div role='alert' style={{ padding: '12px', borderLeft: '4px solid', borderColor: type === 'critical' ? '#D32F2F' : '#F57C00' }}>{message}</div>);
