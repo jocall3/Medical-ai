@@ -1,0 +1,1 @@
+export class Vector { constructor(public readonly species: string, public readonly lifecycleDays: number, public readonly bitingRatePerDay: number) {} }
