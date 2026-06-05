@@ -1,0 +1,1 @@
+export class UmbilicalCord { constructor(public dopplerVelocity: number, public hasNuchalCord: boolean, public isProlapsed: boolean) {} }
