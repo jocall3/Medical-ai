@@ -1,0 +1,1 @@
+export class FetalDistressSimulator { static evaluate(decelerations: string[], variability: 'absent' | 'minimal' | 'moderate'): 'category1' | 'category2' | 'category3' { if (variability === 'absent' && decelerations.includes('late')) return 'category3'; if (variability === 'moderate') return 'category1'; return 'category2'; } }
