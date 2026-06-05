@@ -1,0 +1,1 @@
+export class MobilityAssessment { constructor(public readonly assessmentId: string, public balanceScore: number, public gaitProfile: any, public strengthMetrics: any) {} }
