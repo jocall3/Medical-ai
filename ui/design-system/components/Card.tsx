@@ -1,0 +1,1 @@
+import React from 'react'; export const Card = ({ children }) => (<div style={{ border: '1px solid #E0E0E0', borderRadius: '8px', padding: '16px', backgroundColor: '#FFFFFF' }}>{children}</div>);
