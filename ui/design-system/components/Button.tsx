@@ -1,0 +1,1 @@
+import React from 'react'; export const Button = ({ children, variant = 'primary', ...props }) => (<button className={`btn btn-${variant}`} style={{ padding: '8px 16px', borderRadius: '4px', cursor: 'pointer' }} {...props}>{children}</button>);
