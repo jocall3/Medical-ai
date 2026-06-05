@@ -1,0 +1,1 @@
+import { Compound } from '../entities/Compound'; export class DrugDrugInteractionChecker { checkInteraction(drugA: Compound, drugB: Compound): boolean { return Math.abs(drugA.logP - drugB.logP) < 0.5; } }
