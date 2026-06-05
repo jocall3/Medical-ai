@@ -1,0 +1,1 @@
+export interface BiomarkerProfile { ctDNA_Level: number; tumorMutationalBurden: number; pdL1_Expression: number; }
