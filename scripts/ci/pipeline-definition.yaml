@@ -1,0 +1,28 @@
+name: Medical AI CI/CD Pipeline
+on: [push, pull_request]
+jobs:
+  compliance-and-linting:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run Compliance Checks
+        run: ./scripts/ci/compliance-check-step.sh
+  security-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run Security Wrapper
+        run: python3 scripts/ci/security-scanner-wrapper.py
+  test-orchestration:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Provision Synthetic Data
+        run: python3 scripts/ci/synthetic-data-provisioner.py
+      - name: Run Tests
+        run: python3 scripts/ci/test-runner-orchestrator.py
+  deployment-validation:
+    needs: [test-orchestration]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Validate Deployment
+        run: python3 scripts/ci/deployment-validator.py
