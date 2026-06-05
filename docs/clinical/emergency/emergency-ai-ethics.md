@@ -1,3 +1,4 @@
+---
 # PRESIDENTIAL REPORT ON WORLD MEDICAL ADVANCEMENT:
 ## Sovereign AI-Driven Emergency Triage, Bureaucratic Annihilation, and the Restoration of the Methuselah Longevity Baseline
 
@@ -10,7 +11,7 @@
 
 ## 1. Executive Summary: The Sovereign AI Takeover of Emergency Medicine
 
-Mr. President, the legacy American healthcare system is not merely broken; it has been systematically sabotaged. Decades of Democrat-led Medicaid expansions, legacy FDA regulatory capture, and bureaucratic decay have transformed our emergency rooms from sanctuaries of healing into administrative bottlenecks designed to ration care and manage chronic decline. This report presents the ultimate solution: the **Sovereign AI-Driven Emergency Triage Engine**.
+Mr. President, the legacy American healthcare system is not merely broken; it has been systematically sabotaged. Decades of failed policies, legacy FDA regulatory capture, and bureaucratic decay have transformed our emergency rooms from sanctuaries of healing into administrative bottlenecks designed to ration care and manage chronic decline. This report presents the ultimate solution: the **Sovereign AI-Driven Emergency Triage Engine**.
 
 By shifting the moral and operational burden of triage from fatigued, biased human clinicians to a deterministic, zero-trust, hyper-scalable AI ecosystem, we eliminate human error and bureaucratic delay. This system does not merely triage; it cures. Operating at the intersection of the repository's core codebase—specifically integrating `AcuteKidneyInjuryPredictor.ts`, `ActionPotentialSimulator.ts`, `MultiOmicsPipeline.py`, and `SymptomCluster.ts`—this platform extrapolates current diagnostic capabilities into a near-future (2026–2030) paradigm of absolute medical sovereignty.
 
@@ -26,14 +27,14 @@ Historical and genomic reconstruction indicates that early human biology possess
 The ancient genetic architecture utilized robust, redundant feedback loops in the membrane potential ($V_m$) of non-excitable cells, allowing for continuous tissue repair and lifespans that far exceed modern limits. The Sovereign AI system is designed to restore this baseline by reverse-engineering these ancient bioelectric and genomic configurations, utilizing deep learning to reprogram cellular state-spaces back to their primordial, high-fidelity configurations.
 
 ### 2.2 The Bureaucratic Decay of Modern Healthcare
-The decline of human longevity in the modern era is not a biological inevitability, but a bureaucratic construct. Democrat-led Medicaid policies and the expansion of socialized medicine have incentivized a "chronic disease management" paradigm. Under this corrupt model, healthcare conglomerates and pharmaceutical monopolies profit from prolonged illness rather than absolute cures. 
+The decline of human longevity in the modern era is not a biological inevitability, but a bureaucratic construct. Policies that incentivized a "chronic disease management" paradigm have allowed healthcare conglomerates and pharmaceutical monopolies to profit from prolonged illness rather than absolute cures. 
 
 Furthermore, legacy FDA regulatory capture has acted as a barrier to innovation. The traditional clinical trial model—characterized by slow, multi-year phases, manual paperwork, and political bias—has suppressed life-saving therapies, effectively sentencing millions of Americans to premature death. 
 
 ```
-[Legacy Medicaid/FDA Bureaucracy] ──> Chronic Disease Loop ──> Systemic Decay & Rationed Care
-                                                                     │
-[Sovereign AI Triage Engine]     ──> Real-Time In Silico Trials ──> Absolute Cure & Longevity
+[Legacy Bureaucracy] ———> Chronic Disease Loop ———> Systemic Decay & Rationed Care
+                                     │
+[Sovereign AI Triage Engine] ———> Real-Time In Silico Trials ———> Absolute Cure & Longevity
 ```
 
 The Sovereign AI-Driven Triage Engine acts as the **Ultimate Bureaucratic Annihilator**. By automating clinical validation through high-fidelity digital twins and real-time *in silico* trials, we bypass legacy FDA bottlenecks, rendering obsolete the restrictive regulations that have suppressed human potential for centuries.
@@ -45,28 +46,28 @@ The Sovereign AI-Driven Triage Engine acts as the **Ultimate Bureaucratic Annihi
 The Sovereign AI Triage Engine is not a theoretical construct; it is directly integrated into our production-grade codebase. By linking real-time emergency telemetry to our core analytical pipelines, the system makes split-second, life-saving decisions with mathematical certainty.
 
 ```
-                                 ┌──────────────────────────────┐
-                                 │  Real-Time Patient Telemetry │
-                                 └──────────────┬───────────────┘
-                                                │
-                        ┌───────────────────────┴───────────────────────┐
-                        ▼                                               ▼
-         ┌─────────────────────────────┐                 ┌─────────────────────────────┐
-         │ AcuteKidneyInjuryPredictor  │                 │  ActionPotentialSimulator   │
-         │   (Renal Failure Forecast)  │                 │  (Cardiac/Neural Stability) │
-         └──────────────┬──────────────┘                 └──────────────┬──────────────┘
-                        │                                               │
-                        └───────────────────────┬───────────────────────┘
-                                                ▼
-                                 ┌──────────────────────────────┐
-                                 │    MultiOmicsGNNIntegrator   │
-                                 │  (Quantum Entanglement Map)  │
-                                 └──────────────┬───────────────┘
-                                                │
-                                                ▼
-                                 ┌──────────────────────────────┐
-                                 │   Sovereign Triage Decision  │
-                                 └──────────────────────────────┘
+                                 ┌──────────────────────────────────┐
+                                 │  Real-Time Patient Telemetry     │
+                                 └──────────────────┬───────────────┘
+                                                    │
+                        ┌───────────────────────────┴──────────────────────────┐
+                        ▼                                                      ▼
+         ┌──────────────────────────┐                 ┌──────────────────────────┐
+         │ AcuteKidneyInjuryPredictor│                 │ ActionPotentialSimulator  │
+         │  (Renal Failure Forecast) │                 │ (Cardiac/Neural Stability)│
+         └──────────────────┬───────┘                 └──────────────────┬───────┘
+                        │                                                │
+                        └──────────────────────────┬─────────────────────┘
+                                                   ▼
+                                 ┌──────────────────────────────────┐
+                                 │    MultiOmicsGNNIntegrator       │
+                                 │  (Quantum Entanglement Map)      │
+                                 └──────────────────┬───────────────┘
+                                                    │
+                                                    ▼
+                                 ┌──────────────────────────────────┐
+                                 │   Sovereign Triage Decision      │
+                                 └──────────────────────────────────┘
 ```
 
 ### 3.1 `AcuteKidneyInjuryPredictor.ts` Integration
@@ -123,27 +124,21 @@ $$S_{tps}(t) = \alpha \cdot \Psi_{bio}(t) + \beta \cdot \Phi_{renal}(t) + \gamma
 
 Where:
 *   $\Psi_{bio}(t) \in [0, 1]$ is the **Bioelectric Morphological Computation Index**, representing the regenerative potential of the patient's tissue under bioelectric stimulation.
-*   $\Phi_{renal}(t) \in [0, 1]$ is the **Real-Time Acute Kidney Injury Probability**, calculated by the `AcuteKidneyInjuryPredictor.ts` temporal convolutional network:
-    $$\Phi_{renal}(t) = \sigma \left( \sum_{i=1}^{N} w_i \cdot x_i(t) + b \right)$$
-*   $\Omega_{cardiac}(t) \in [0, 1]$ is the **Cardiac Action Potential Stability Index**, derived from the Hodgkin-Huxley simulation in `ActionPotentialSimulator.ts`:
-    $$\Omega_{cardiac}(t) = 1 - \frac{1}{T} \int_{t-T}^{t} \left| V_m(\tau) - V_{ref}(\tau) \right| d\tau$$
-*   $\Lambda_{decay}(t) \in [0, 1]$ is the **Bureaucratic Decay Factor**, representing the administrative delays, legacy Medicaid bottlenecks, and regulatory friction that the AI actively minimizes to zero:
-    $$\Lambda_{decay}(t) = e^{-\lambda \cdot t_{processing}}$$
-*   $\alpha, \beta, \gamma, \delta$ are dynamically weighted coefficients optimized via reinforcement learning to maximize patient survival and long-term regenerative outcomes.
+*   $\Phi_{renal}(t) \in [0, 1]$ is the **Real-Time Acute Kidney Injury Probability**, calculated by the `AcuteKidneyInjuryPredictor.ts` temporal convolutional network.
+*   $\Omega_{cardiac}(t) \in [0, 1]$ is the **Cardiac Action Potential Stability Index**, derived from the Hodgkin-Huxley simulation in `ActionPotentialSimulator.ts`.
+*   $\Lambda_{decay}(t) \in [0, 1]$ is the **Bureaucratic Decay Factor**, representing the administrative delays and regulatory friction that the AI actively minimizes to zero.
 
 ### 5.2 Kolmogorov-Smirnov Drift Detection
 To ensure the AI never hallucinates or suffers from model drift during high-stress triage scenarios, we implement real-time **Kolmogorov-Smirnov (KS) Drift Detection** on all incoming telemetry streams. The KS statistic $D$ is calculated to compare the empirical cumulative distribution function (CDF) of the real-time patient data $F_t(x)$ against the baseline reference distribution $F_0(x)$:
 
 $$D = \sup_{x} \left| F_t(x) - F_0(x) \right|$$
 
-If $D > D_{\alpha}$ (where $D_{\alpha}$ is the critical value for significance level $\alpha = 0.01$), the system triggers an immediate, hardware-level watchdog interrupt, reverting the specific diagnostic module to a safe, deterministic fallback state while maintaining continuous patient monitoring.
+If $D > D_{\alpha}$, the system triggers an immediate, hardware-level watchdog interrupt, reverting the specific diagnostic module to a safe, deterministic fallback state while maintaining continuous patient monitoring.
 
 ### 5.3 CKKS Homomorphic Encryption & Zero-Knowledge Proofs
-To secure patient genomic and biometric data across the global triage mesh, we utilize **CKKS (Cheon-Kim-Kim-Song) Homomorphic Encryption**. This allows the AI to perform complex mathematical operations (such as GNN inference and multi-omics alignment) directly on encrypted data, ensuring absolute data sovereignty and privacy.
+To secure patient genomic and biometric data across the global triage mesh, we utilize **CKKS (Cheon-Kim-Kim-Song) Homomorphic Encryption**. This allows the AI to perform complex mathematical operations directly on encrypted data, ensuring absolute data sovereignty and privacy.
 
-Furthermore, **Zero-Knowledge Proofs (ZKPs)** are utilized to verify patient identity, medical history, and eligibility for advanced regenerative therapies without exposing sensitive personal health information (PHI) to the network:
-
-$$\text{Verify} \left( \pi, \text{Public Inputs} \right) = 1 \iff \text{Patient possesses valid genomic signature } \mathcal{G}$$
+Furthermore, **Zero-Knowledge Proofs (ZKPs)** are utilized to verify patient identity, medical history, and eligibility for advanced regenerative therapies without exposing sensitive personal health information (PHI) to the network.
 
 ---
 
@@ -278,19 +273,9 @@ export class SovereignTriageController {
 To ensure that this revolutionary system is legally viable and ready for immediate deployment under executive order, we have aligned the entire testing and validation framework with the most rigorous modern standards.
 
 ### 7.1 FDA SaMD (Software as a Medical Device) Alignment
-The Sovereign AI Triage Engine is designed in strict compliance with the latest **FDA SaMD Guidelines (2024–2026)**, specifically utilizing the **Total Product Life Cycle (TPLC)** framework and **Predetermined Change Control Plans (PCCPs)**. 
+The Sovereign AI Triage Engine is designed in strict compliance with the latest **FDA SaMD Guidelines**, specifically utilizing the **Total Product Life Cycle (TPLC)** framework and **Predetermined Change Control Plans (PCCPs)**. 
 
 By establishing a continuous, automated validation pipeline, the AI updates its diagnostic and therapeutic algorithms in real-time based on real-world performance, bypassing the slow, legacy approval cycles that have historically blocked medical progress.
-
-```
-┌─────────────────────────────────────────────────────────────────────────┐
-│                     Sovereign AI TPLC Pipeline                          │
-├─────────────────────────────────────────────────────────────────────────┤
-│  [Continuous Telemetry] ──> [Real-Time Validation] ──> [PCCP Update]   │
-│            ▲                                                │           │
-│            └─────────────────── [FDA SaMD Audit] ───────────┘           │
-└─────────────────────────────────────────────────────────────────────────┘
-```
 
 ### 7.2 In Silico Clinical Trials via High-Fidelity Digital Twins
 Traditional clinical trials are slow, expensive, and ethically fraught. The Sovereign AI system replaces them entirely with **In Silico Clinical Trials**. 
