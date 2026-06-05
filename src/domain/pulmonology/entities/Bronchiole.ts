@@ -1,0 +1,1 @@
+export interface Bronchiole { id: string; radius: number; smoothMuscleConstriction: number; mucusProduction: number; ciliaryClearanceRate: number; }
