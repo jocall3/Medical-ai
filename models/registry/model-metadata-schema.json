@@ -1,0 +1,1 @@
+{"type":"object","properties":{"model_id":{"type":"string"},"version":{"type":"string"},"clinical_domain":{"type":"string"},"framework":{"type":"string"},"created_at":{"type":"string","format":"date-time"},"author":{"type":"string"}},"required":["model_id","version","clinical_domain"]}
