@@ -1,0 +1,1 @@
+export class GasExchangeSimulator { simulate(o2Gradient: number, co2Gradient: number, membraneDiffusingCapacity: number) { const o2Flux = membraneDiffusingCapacity * o2Gradient; const co2Flux = membraneDiffusingCapacity * co2Gradient * 20; return { o2Flux, co2Flux }; } }
