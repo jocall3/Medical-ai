@@ -1,0 +1,1 @@
+export class CosmicRadiation { constructor(public readonly energyMeV: number, public readonly shieldingThicknessCm: number, public readonly particleType: 'GCR' | 'SPE') {} calculatePenetration(): number { return this.energyMeV / (this.shieldingThicknessCm * 10); } }
