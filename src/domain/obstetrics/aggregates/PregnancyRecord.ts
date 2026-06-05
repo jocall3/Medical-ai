@@ -1,0 +1,1 @@
+import { Uterus } from '../entities/Uterus'; export class PregnancyRecord { constructor(public readonly patientId: string, public gravidity: number, public parity: number, public uterus: Uterus) {} }
