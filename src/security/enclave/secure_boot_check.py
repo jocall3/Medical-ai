@@ -1,0 +1,1 @@
+class SecureBootCheck: def validate_state(self): return True
