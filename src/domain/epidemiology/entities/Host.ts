@@ -1,0 +1,1 @@
+export enum ImmunityStatus { SUSCEPTIBLE, EXPOSED, INFECTED, RECOVERED, VACCINATED } export class Host { constructor(public readonly id: string, public immunityStatus: ImmunityStatus, public contactNetwork: string[]) {} }
