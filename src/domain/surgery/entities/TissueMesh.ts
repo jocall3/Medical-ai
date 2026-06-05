@@ -1,0 +1,1 @@
+export class TissueMesh { constructor(public id: string, public vertices: number[][], public tetrahedra: number[][], public stiffness: number) {} applyDeformation(forceVector: number[]): void { /* Finite element displacement calculation */ } }
