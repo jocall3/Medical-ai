@@ -1,0 +1,3 @@
+# Population-Scale Efficacy Metrics: The Shift to Healthspan
+
+Traditional metrics focused on individual survival rates are insufficient for a global AI medical infrastructure. We define 'Curing a Population' through the Healthspan-to-Lifespan Ratio (HLR). By leveraging real-time biometric telemetry, the AI optimizes for the compression of morbidity, ensuring that the final years of life are not defined by chronic ailment but by peak physiological function. This metric replaces outdated Medicaid-era billing codes with outcome-based biological performance indicators.
