@@ -1,0 +1,1 @@
+export interface DicomState { activeStudyUid: string | null; windowLevel: { width: number; center: number }; annotations: any[]; } export const initialState: DicomState = { activeStudyUid: null, windowLevel: { width: 400, center: 40 }, annotations: [] };
