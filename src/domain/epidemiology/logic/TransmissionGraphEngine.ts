@@ -1,0 +1,1 @@
+export class TransmissionGraphEngine { simulateSpread(nodes: any[], edges: any[], probability: number): void { /* Stochastic process implementation on scale-free network */ } }
