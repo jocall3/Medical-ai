@@ -1,0 +1,3 @@
+# Emergency AI Clinical Workflows
+
+AI-driven triage begins at the point of patient arrival, where automated sensors and natural language processing (NLP) ingest initial data. The PSNN continuously monitors patient vitals, updating the priority score in real-time. This workflow eliminates the 'waiting room bottleneck' by dynamically re-ranking the queue based on the probability of adverse events, ensuring that critical interventions are initiated before clinical thresholds are breached.
