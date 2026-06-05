@@ -1,0 +1,1 @@
+export class RadiationDosageCalculator { calculateSurvivalFraction(dose: number, alpha: number, beta: number): number { return Math.exp(-(alpha * dose + beta * Math.pow(dose, 2))); } }
