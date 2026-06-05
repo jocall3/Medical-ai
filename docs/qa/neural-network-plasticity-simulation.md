@@ -1,0 +1,3 @@
+# Neural Network Plasticity Simulation
+
+We simulate the brain's synaptic plasticity to test psychiatric and neuro-regenerative therapies. By modeling the dynamic reconfiguration of neural circuits in response to stimuli, the DT can predict how a patient might respond to neuro-stimulation or pharmacological interventions. This allows for the safe, in-silico testing of treatments for mental health disorders and neurodegenerative diseases before clinical application.
