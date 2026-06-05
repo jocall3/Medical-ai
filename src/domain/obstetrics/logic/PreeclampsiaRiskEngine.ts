@@ -1,0 +1,1 @@
+export class PreeclampsiaRiskEngine { static calculateRisk(sFlt1: number, plgf: number, systolicBp: number): 'low' | 'intermediate' | 'high' { const ratio = sFlt1 / plgf; if (ratio > 85 || systolicBp >= 160) return 'high'; if (ratio > 38) return 'intermediate'; return 'low'; } }
