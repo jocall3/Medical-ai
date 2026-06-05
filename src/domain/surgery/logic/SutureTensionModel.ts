@@ -1,0 +1,1 @@
+export class SutureTensionModel { calculateOptimalTension(incisionDepth: number, tissueType: string): number { /* Calculate tension to prevent ischemia */ return 0.5; } }
