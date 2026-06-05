@@ -1,0 +1,1 @@
+CREATE TABLE dicom_metadata (id UUID PRIMARY KEY, study_uid TEXT UNIQUE, patient_id TEXT, series_uid TEXT, modality TEXT, file_path TEXT, created_at TIMESTAMP DEFAULT NOW()); CREATE INDEX idx_study_uid ON dicom_metadata(study_uid); CREATE INDEX idx_patient_id ON dicom_metadata(patient_id);
