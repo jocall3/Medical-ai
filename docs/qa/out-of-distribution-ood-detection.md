@@ -1,0 +1,3 @@
+# Out-of-Distribution (OOD) Detection: Ensuring Human-in-the-Loop
+
+When a patient presents with symptoms or biomarkers outside the AI's training manifold, the system must trigger an immediate OOD alert. We utilize Mahalanobis distance metrics and Bayesian uncertainty estimation to detect these anomalies. This ensures that the AI never 'hallucinates' a diagnosis for a condition it does not recognize, mandating an immediate transition to human specialist oversight.
