@@ -1,0 +1,3 @@
+# Safety-Critical Watchdog Specs: The Hardware Fail-Safe
+
+This specification details a hardware-level watchdog circuit that operates independently of the AI's primary inference engine. If the AI recommends a dosage exceeding established safety thresholds or exhibits erratic behavior, the watchdog triggers a hard-wired emergency stop. This physical layer of protection is non-negotiable for the future of autonomous medical care.
