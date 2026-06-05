@@ -1,0 +1,3 @@
+# Ethical Implications of AI-Driven Triage
+
+AI in emergency medicine shifts the moral burden of triage from individual clinicians to a transparent, data-driven system. While this reduces human bias and fatigue, it necessitates rigorous oversight to ensure equitable access. We address the 'black box' problem through explainable AI (XAI) techniques, ensuring that every triage decision is traceable to specific clinical indicators, thereby upholding the principles of justice and accountability.
