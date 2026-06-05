@@ -1,0 +1,1 @@
+export class CervicalDilationModel { static predictProgress(currentDilation: number, hoursElapsed: number): number { return currentDilation + (hoursElapsed * 1.2); } }
