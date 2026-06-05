@@ -1,0 +1,1 @@
+export class RoboticAssistanceSession { constructor(public sessionId: string, public plan: any) {} processInput(input: any): void { /* Handle haptic feedback and safety overrides */ } }
