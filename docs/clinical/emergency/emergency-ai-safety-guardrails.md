@@ -1,0 +1,3 @@
+# Safety Guardrails and Risk Mitigation
+
+Safety is the cornerstone of AI implementation. Our protocols mandate continuous auditing of model performance, including sensitivity analysis for rare clinical presentations. By maintaining a strict separation between the AI's predictive output and the final clinical decision, we ensure that the system serves as a force multiplier for human expertise rather than a replacement, mitigating the risks of automation bias.
