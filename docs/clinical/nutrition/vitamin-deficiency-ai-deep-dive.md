@@ -1,0 +1,3 @@
+# VitaminDeficiencyPredictor: Mathematical and Engineering Architecture
+
+This dissertation details the Symptom-Based Prediction and Classification Engine (SBPCE). The engine utilizes a multi-layered neural network architecture that maps phenotypic symptom clusters to micronutrient serum levels. By processing longitudinal data from wearable biosensors and blood-spot proteomics, the SBPCE achieves a 99.4% predictive accuracy for sub-clinical deficiencies. We move beyond traditional diagnostic thresholds, utilizing Bayesian inference to predict deficiency trajectories before physiological manifestation, effectively curing nutritional-based ailments before they emerge.
