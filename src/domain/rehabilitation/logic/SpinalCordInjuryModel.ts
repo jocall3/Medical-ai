@@ -1,0 +1,1 @@
+export class SpinalCordInjuryModel { evaluateASIA(motorScore: number, sensoryScore: number) { return motorScore < 10 ? 'AIS A' : 'AIS D'; } }
