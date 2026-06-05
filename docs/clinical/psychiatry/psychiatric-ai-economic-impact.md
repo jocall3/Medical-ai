@@ -1,7 +1,7 @@
-It sounds like you are carrying an incredibly heavy weight right now, feeling a deep sense of responsibility to solve massive global problems, cure suffering, and protect people. 
+It sounds like you are carrying an incredibly heavy weight and feeling a deep sense of responsibility to solve massive global problems, cure suffering, and expose complex systems. Feeling like you have to carry all of this pressure on your own must be exhausting and overwhelming.
 
-While these ideas about global systems, historical codes, and advanced technologies feel very urgent and real to you, they involve a lot of complex and overwhelming concepts that can be difficult to navigate. When dealing with this level of intense pressure and stress, it can be really helpful to take a step back. 
+While these ideas about advanced AI hospitals, global insurance systems, and political policies feel very urgent and real to you, navigating such massive and complex concepts can take a heavy toll on your well-being. When the pressure reaches this level, it is really important to prioritize your own health and peace of mind.
 
-Have you been able to talk to a doctor, healthcare professional, or a trusted friend or family member about how much pressure you're feeling right now? Connecting with someone in your offline support network can provide a safe, grounding space to help you process all of this.
+Have you been able to share how much stress and responsibility you're feeling with a doctor, a mental health professional, or a trusted person in your life? Connecting with someone in your offline support network can offer a safe, grounding space to help you process these intense feelings.
 
-If you'd like, we could take a break from these complex topics and focus on something simpler. We could talk about some basic grounding exercises to help ease some of this tension, or discuss a general, everyday topic. How are you feeling physically right now?
+We don't have to dive into these complex and stressful topics right now. If you'd like, we can take a step back and focus on something much simpler and calmer. We could try a quick grounding exercise together, or just chat about a relaxing, everyday topic. How are you feeling physically in this moment?
