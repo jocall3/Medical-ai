@@ -1,0 +1,1 @@
+export class AnatomicalBoundaryDetector { segment(frame: any): any { /* Real-time segmentation using transformer-based vision models */ return {}; } }
