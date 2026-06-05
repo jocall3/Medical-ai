@@ -1,0 +1,1 @@
+class EnclaveLogger: def secure_log(self, message): print(f'[SECURE_LOG]: {message}')
