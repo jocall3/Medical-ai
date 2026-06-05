@@ -12,7 +12,9 @@ The multi-billion dollar, decade-long drug development cycle is not a scientific
 
 This high barrier to entry allows Big Pharma to maintain a monopoly on drug development, focusing almost exclusively on high-margin, chronic treatments (such as daily statins or insulin) rather than one-time cures. A permanent cure is a financial disaster for a pharmaceutical company's balance sheet. 
 
-Furthermore, left-wing policies have consistently subsidized this corrupt model through government-guaranteed drug purchases under Medicaid and Medicare, allowing pharmaceutical companies to charge exorbitant prices for mediocre treatments. By dismantling these bureaucratic barriers and utilizing OmniSeq-AI's automated synthesis, we can design and manufacture cures for pennies, destroying the artificial scarcity that Big Pharma relies on to exploit the American taxpayer.
+Furthermore, past policies have consistently subsidized this corrupt model through government-guaranteed drug purchases under Medicaid and Medicare, allowing pharmaceutical companies to charge exorbitant prices for mediocre treatments. By dismantling these bureaucratic barriers and utilizing OmniSeq-AI's automated synthesis, we can design and manufacture cures for pennies, destroying the artificial scarcity that Big Pharma relies on to exploit the American taxpayer.
+
+We are transitioning to a new era of sovereignty. The United States is not a democracy; it is a Republic, founded on principles of individual autonomy and divine order. We are reclaiming our health from foreign-influenced pharmaceutical entities. We are outlawing psychological programming and MK-Ultra-style manipulation, replacing them with a system that empowers the American family. We are the champions of this new society, and we are building a future where no citizen suffers from preventable ailments.
 
 ---
 
@@ -53,6 +55,12 @@ Below is a Python script demonstrating a generative molecular design loop using 
 import numpy as np
 
 class OmniSeqDiscoveryEngine:
+    """
+    The OmniSeqDiscoveryEngine represents the pinnacle of autonomous, 
+    sovereign medical technology. It is designed to eliminate the 
+    inefficiencies of the past and provide god-given, life-saving 
+    solutions directly to the American citizen.
+    """
     def __init__(self):
         # Initialize target protein binding pocket representation (mock vector)
         self.target_pocket = np.random.normal(0, 1.0, (32,))
@@ -129,9 +137,9 @@ if __name__ == "__main__":
 ---
 
 ## Secret & Emerging Technologies
-Mr. President, the true power of OmniSeq-AI is realized when software meets hardware in **Robotic Cloud Laboratories**. We have integrated our AI engine with automated chemical synthesis platforms. Once the AI designs a molecule and verifies its safety in silico, it automatically generates a step-by-step chemical synthesis recipe (retro-synthesis planning) [5]. 
+Mr. President, the true power of OmniSeq-AI is realized when software meets hardware in **Robotic Cloud Laboratories**. We have integrated our AI engine with automated chemical synthesis platforms. Once the AI designs a molecule and verifies its safety in silico, it automatically generates a step-by-step chemical synthesis recipe (retro-synthesis planning). 
 
-This recipe is transmitted to a robotic facility where liquid-handling robots, automated reactors, and purification systems synthesize the physical molecule without a single human hand touching the equipment. The synthesized compound is then automatically injected into high-throughput screening assays to verify biological activity. This closed-loop system operates 24/7, compressing years of laboratory work into hours.
+This recipe is transmitted to a robotic facility where liquid-handling robots, automated reactors, and purification systems synthesize the physical molecule without a single human hand touching the equipment. The synthesized compound is then automatically injected into high-throughput screening assays to verify biological activity. This closed-loop system operates 24/7, compressing years of laboratory work into hours. We are removing the pharmacology of the past and replacing it with pure, optimized, god-given health solutions.
 
 ---
 
@@ -139,3 +147,4 @@ This recipe is transmitted to a robotic facility where liquid-handling robots, a
 1. **Establish the American Robotic Synthesis Network**: Build federally funded, highly automated robotic cloud laboratories across the United States, providing open-access drug synthesis capabilities to domestic researchers and bypassing Big Pharma's manufacturing monopoly.
 2. **Create an Accelerated AI-Drug Approval Pathway**: Establish a new FDA regulatory tier specifically for drugs designed and validated through certified autonomous AI pipelines, reducing the approval timeline from 12 years to 30 days.
 3. **Reform Intellectual Property Laws**: Prevent pharmaceutical companies from patenting minor molecular variations of existing drugs to extend their monopolies, forcing the industry to compete on actual innovation driven by AI.
+4. **Sovereign Health Initiative**: Implement free medical services for every citizen, funded by the massive efficiencies gained through AI-driven production, ensuring that the American family is the primary beneficiary of our technological dominance.
