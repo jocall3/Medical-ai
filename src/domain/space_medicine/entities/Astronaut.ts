@@ -1,0 +1,1 @@
+export class Astronaut { constructor(public readonly id: string, public baselinePhysiology: Record<string, number>, public missionStressors: string[]) {} updatePhysiology(metrics: Record<string, number>): void { this.baselinePhysiology = { ...this.baselinePhysiology, ...metrics }; } }
