@@ -1,0 +1,1 @@
+class PayloadLoader: def load_model(self, model_path, enclave): pass
