@@ -1,0 +1,1 @@
+# Memory Editing Audit Middleware. For PTSD reconsolidation blockade, this middleware enforces strict Role-Based Access Control (RBAC) and immutable audit logging. Every interaction with a patient's memory-retrieval state is cryptographically signed. This ensures that memory-editing therapies are conducted with absolute clinical integrity and legal accountability.
