@@ -1,0 +1,3 @@
+# Clinical Safety and Trust
+
+Building public trust in AI-driven decision-making requires radical transparency and explainable AI (XAI). This framework proposes a standard for clinical AI that ensures every recommendation is traceable, evidence-based, and subject to rigorous validation. By prioritizing safety-critical design, we can ensure that AI becomes a trusted partner in the clinical environment.
